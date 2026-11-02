@@ -1,0 +1,6 @@
+dist/
+mac/out/
+mac/node_modules/
+test/
+*.backup.html
+.DS_Store

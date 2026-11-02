@@ -1,0 +1,7 @@
+3D models: Kenney (www.kenney.nl) - "Starter Kit City Builder"
+https://github.com/KenneyNL/Starter-Kit-City-Builder
+Assets (2D sprites, 3D models, sounds) are CC0 (public domain). Credit is optional.
+
+Ek paketler (models_ext/):
+- Car Kit 3.1, Kenney (www.kenney.nl), CC0 1.0 - arabalar (models_ext/car)
+- Train Kit 1.1, Kenney (www.kenney.nl), CC0 1.0 - ray ve trenler (models_ext/train)

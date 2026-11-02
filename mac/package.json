@@ -1,0 +1,13 @@
+{
+  "name": "sehrim",
+  "productName": "Sehrim",
+  "version": "1.0.0",
+  "description": "Şehrim - kişisel şehir kurma oyunu",
+  "main": "main.js",
+  "author": "Emir",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "@electron/packager": "^18.3.6"
+  }
+}
