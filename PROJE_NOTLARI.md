@@ -30,7 +30,7 @@ Oyun yalnızca kişisel kullanım içindir, satılmayacak.
   - Paketleme (Linux'ta): `cd mac && npx @electron/packager . "Sehrim" --executable-name=Sehrim --platform=darwin --arch=arm64 --electron-version=33.4.11 --icon=icon.icns --out=out --overwrite ...`, sonra rcodesign ile ad-hoc imza (`rcodesign sign Sehrim.app`), sonra `zip -qry` (sembolik bağlar korunmalı).
   - İmzasız (notarize edilmemiş) olduğu için ilk açılışta macOS uyarır: sağ tık > Aç ya da Sistem Ayarları > Gizlilik ve Güvenlik > Yine de Aç. Gerekirse `xattr -cr /Applications/Sehrim.app && codesign --force --deep -s - /Applications/Sehrim.app`.
 - [ ] Windows `.exe` paketleme (aynı yöntem, `--platform=win32`)
-- [ ] GitHub'a gönderme (kullanıcı Mac uygulamasından sonra istiyor)
+- [x] **GitHub:** https://github.com/otcstcemrozcr/Sehrim (gizli depo, dal `main`). Çalışma kopyası `/home/claude/citygame`, depo kopyası `/home/claude/sehrim`. Her güncellemede `src models models_ext models_pending vendor build.py PROJE_NOTLARI.md` ve `mac/` kaynakları depoya kopyalanıp gönderilir. `dist/` ve `test/` depoya girmez (.gitignore). Derlenmiş Mac zip'i istenirse Releases'e eklenir.
 
 Şehir oyuncu tarafından sıfırdan kurulur, hazır şehir yoktur. Yeni oyunda oyuncu 6 boş harita türünden birini seçer; ortası açık, çevresi ağaçlık.
 
